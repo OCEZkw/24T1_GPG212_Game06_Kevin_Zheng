@@ -1,0 +1,1972 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a6b9796d1c0440eba061ace5e9dff6, type: 3}
+  m_Name: canned food
+  m_EditorClassIdentifier: 
+  assetsData:
+  - rid: 3103318136011358535
+  - rid: 3103318136011358543
+  - rid: 3103318136011358550
+  - rid: 3103318136011358557
+  - rid: 3103318136011358564
+  - rid: 3103318136011358571
+  - rid: 3103318136011358578
+  - rid: 3103318136011358585
+  - rid: 3103318136011358592
+  - rid: 3103318136011358599
+  - rid: 3103318136011358606
+  - rid: 3103318136011358613
+  - rid: 3103318136011358620
+  - rid: 3103318136011358627
+  - rid: 3103318136011358634
+  - rid: 3103318136011358641
+  - rid: 3103318136011358648
+  - rid: 3103318136011358655
+  - rid: 3103318136011358662
+  - rid: 3103318136011358669
+  currentMode: TextToSprite
+  m_Data:
+  - rid: 3103318136011358523
+  - rid: 3103318136011358524
+  - rid: 3103318136011358525
+  - rid: 3103318136011358526
+  - rid: 3103318136011358527
+  - rid: 3103318136011358528
+  - rid: 3103318136011358536
+  preRefinedArtifact:
+    rid: -2
+  refinedArtifact:
+    rid: -2
+  selectedArtifact:
+    rid: -2
+  m_Operators:
+  - rid: 3103318136011358529
+  - rid: 3103318136011358530
+  - rid: 3103318136011358531
+  - rid: 3103318136011358532
+  - rid: 3103318136011358533
+  - rid: 3103318136011358534
+  m_PreRefineOperators: []
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 3103318136011358523
+      type: {class: FeedbackManager, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_Liked:
+          m_Values: []
+        m_Disliked:
+          m_Values: []
+    - rid: 3103318136011358524
+      type: {class: DefaultStyleData, ns: Unity.Muse.Sprite.Data, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358525
+      type: {class: GenerateButtonData, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data: 
+    - rid: 3103318136011358526
+      type: {class: MainUI/UISize, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_NodeListWidth: 300
+        m_NodeListRefineWidth: 300
+        m_AssetListRefineWidth: 200
+    - rid: 3103318136011358527
+      type: {class: SessionData, ns: Unity.Muse.Sprite.Data, asm: Unity.Muse.Sprite}
+      data:
+        m_SessionId: 64d61c15-275b-45d9-80ca-faff9ef37c39
+        sessionLoaded: 
+    - rid: 3103318136011358528
+      type: {class: BookmarkManager, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_BookmarkedArtifacts:
+          m_Values: []
+        m_IsFilterEnabled: 0
+    - rid: 3103318136011358529
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358530
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - water bottle
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358531
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 57060
+          - 0
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 0
+          - 
+          - 
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358532
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358533
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358534
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 64d61c15-275b-45d9-80ca-faff9ef37c39
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358535
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 1836fa99-2ca0-40a7-96d9-96442665b561
+        Seed: 50103
+        m_Operators:
+        - rid: 3103318136011358537
+        - rid: 3103318136011358538
+        - rid: 3103318136011358539
+        - rid: 3103318136011358540
+        - rid: 3103318136011358541
+        - rid: 3103318136011358542
+        history:
+        - rid: 3103318136011358535
+        m_UnsafeContent: 0
+    - rid: 3103318136011358536
+      type: {class: GenerateCountData, ns: Unity.Muse.Sprite.Data, asm: Unity.Muse.Sprite}
+      data:
+        m_Counter: 0
+    - rid: 3103318136011358537
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358538
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - canned food
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358539
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 50103
+          - 1836fa99-2ca0-40a7-96d9-96442665b561
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358540
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358541
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358542
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 64d61c15-275b-45d9-80ca-faff9ef37c39
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358543
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 10deab77-5c88-4737-8372-d666272bf142
+        Seed: 11907
+        m_Operators:
+        - rid: 3103318136011358544
+        - rid: 3103318136011358545
+        - rid: 3103318136011358546
+        - rid: 3103318136011358547
+        - rid: 3103318136011358548
+        - rid: 3103318136011358549
+        history:
+        - rid: 3103318136011358543
+        m_UnsafeContent: 0
+    - rid: 3103318136011358544
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358545
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - canned food
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358546
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 11907
+          - 10deab77-5c88-4737-8372-d666272bf142
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358547
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358548
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358549
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 64d61c15-275b-45d9-80ca-faff9ef37c39
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358550
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 3d56a724-8c39-4610-80fa-31e2a3def135
+        Seed: 51633
+        m_Operators:
+        - rid: 3103318136011358551
+        - rid: 3103318136011358552
+        - rid: 3103318136011358553
+        - rid: 3103318136011358554
+        - rid: 3103318136011358555
+        - rid: 3103318136011358556
+        history:
+        - rid: 3103318136011358550
+        m_UnsafeContent: 0
+    - rid: 3103318136011358551
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358552
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - canned food
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358553
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 51633
+          - 3d56a724-8c39-4610-80fa-31e2a3def135
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358554
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358555
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358556
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 64d61c15-275b-45d9-80ca-faff9ef37c39
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358557
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 98ddf6a8-22f6-4dae-8055-ea2d42bc4c39
+        Seed: 49517
+        m_Operators:
+        - rid: 3103318136011358558
+        - rid: 3103318136011358559
+        - rid: 3103318136011358560
+        - rid: 3103318136011358561
+        - rid: 3103318136011358562
+        - rid: 3103318136011358563
+        history:
+        - rid: 3103318136011358557
+        m_UnsafeContent: 1
+    - rid: 3103318136011358558
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358559
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - canned food
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358560
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 49517
+          - 98ddf6a8-22f6-4dae-8055-ea2d42bc4c39
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358561
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358562
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358563
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 64d61c15-275b-45d9-80ca-faff9ef37c39
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358564
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: a0a8c7fb-46e8-4f5d-bb5e-4c41188003cc
+        Seed: 29227
+        m_Operators:
+        - rid: 3103318136011358565
+        - rid: 3103318136011358566
+        - rid: 3103318136011358567
+        - rid: 3103318136011358568
+        - rid: 3103318136011358569
+        - rid: 3103318136011358570
+        history:
+        - rid: 3103318136011358564
+        m_UnsafeContent: 0
+    - rid: 3103318136011358565
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358566
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - canned food
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358567
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 29227
+          - a0a8c7fb-46e8-4f5d-bb5e-4c41188003cc
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358568
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358569
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358570
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 64d61c15-275b-45d9-80ca-faff9ef37c39
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358571
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: a84de3a3-2afa-491e-805d-0bbd070331c6
+        Seed: 45381
+        m_Operators:
+        - rid: 3103318136011358572
+        - rid: 3103318136011358573
+        - rid: 3103318136011358574
+        - rid: 3103318136011358575
+        - rid: 3103318136011358576
+        - rid: 3103318136011358577
+        history:
+        - rid: 3103318136011358571
+        m_UnsafeContent: 0
+    - rid: 3103318136011358572
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358573
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - canned food
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358574
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 45381
+          - a84de3a3-2afa-491e-805d-0bbd070331c6
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358575
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358576
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358577
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 64d61c15-275b-45d9-80ca-faff9ef37c39
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358578
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 3ceefdf5-b593-47f4-9f2f-f68f02862679
+        Seed: 4357
+        m_Operators:
+        - rid: 3103318136011358579
+        - rid: 3103318136011358580
+        - rid: 3103318136011358581
+        - rid: 3103318136011358582
+        - rid: 3103318136011358583
+        - rid: 3103318136011358584
+        history:
+        - rid: 3103318136011358578
+        m_UnsafeContent: 0
+    - rid: 3103318136011358579
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358580
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - canned food
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358581
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 4357
+          - 3ceefdf5-b593-47f4-9f2f-f68f02862679
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358582
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358583
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358584
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 64d61c15-275b-45d9-80ca-faff9ef37c39
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358585
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: db4a9da0-eb6b-4c54-a3a3-9802f4426f11
+        Seed: 18799
+        m_Operators:
+        - rid: 3103318136011358586
+        - rid: 3103318136011358587
+        - rid: 3103318136011358588
+        - rid: 3103318136011358589
+        - rid: 3103318136011358590
+        - rid: 3103318136011358591
+        history:
+        - rid: 3103318136011358585
+        m_UnsafeContent: 1
+    - rid: 3103318136011358586
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358587
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - canned food
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358588
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 18799
+          - db4a9da0-eb6b-4c54-a3a3-9802f4426f11
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358589
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358590
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358591
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 64d61c15-275b-45d9-80ca-faff9ef37c39
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358592
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: d7e3f493-9876-4b9e-9357-97de6e7e7b2c
+        Seed: 58485
+        m_Operators:
+        - rid: 3103318136011358593
+        - rid: 3103318136011358594
+        - rid: 3103318136011358595
+        - rid: 3103318136011358596
+        - rid: 3103318136011358597
+        - rid: 3103318136011358598
+        history:
+        - rid: 3103318136011358592
+        m_UnsafeContent: 0
+    - rid: 3103318136011358593
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358594
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - canned food
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358595
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 58485
+          - d7e3f493-9876-4b9e-9357-97de6e7e7b2c
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358596
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358597
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358598
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 64d61c15-275b-45d9-80ca-faff9ef37c39
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358599
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: c1e2d9d4-ff7a-49b6-9802-ab3d26460aa4
+        Seed: 33107
+        m_Operators:
+        - rid: 3103318136011358600
+        - rid: 3103318136011358601
+        - rid: 3103318136011358602
+        - rid: 3103318136011358603
+        - rid: 3103318136011358604
+        - rid: 3103318136011358605
+        history:
+        - rid: 3103318136011358599
+        m_UnsafeContent: 0
+    - rid: 3103318136011358600
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358601
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - canned food
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358602
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 33107
+          - c1e2d9d4-ff7a-49b6-9802-ab3d26460aa4
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358603
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358604
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358605
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 64d61c15-275b-45d9-80ca-faff9ef37c39
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358606
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 25002dac-f30b-4354-a602-f8573e78312e
+        Seed: 16128
+        m_Operators:
+        - rid: 3103318136011358607
+        - rid: 3103318136011358608
+        - rid: 3103318136011358609
+        - rid: 3103318136011358610
+        - rid: 3103318136011358611
+        - rid: 3103318136011358612
+        history:
+        - rid: 3103318136011358606
+        m_UnsafeContent: 0
+    - rid: 3103318136011358607
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358608
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - water bottle
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358609
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 16128
+          - 25002dac-f30b-4354-a602-f8573e78312e
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358610
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358611
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358612
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 64d61c15-275b-45d9-80ca-faff9ef37c39
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358613
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 669ee840-d648-4dc6-b166-f4e99ca866ca
+        Seed: 6894
+        m_Operators:
+        - rid: 3103318136011358614
+        - rid: 3103318136011358615
+        - rid: 3103318136011358616
+        - rid: 3103318136011358617
+        - rid: 3103318136011358618
+        - rid: 3103318136011358619
+        history:
+        - rid: 3103318136011358613
+        m_UnsafeContent: 0
+    - rid: 3103318136011358614
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358615
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - water bottle
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358616
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 6894
+          - 669ee840-d648-4dc6-b166-f4e99ca866ca
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358617
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358618
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358619
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 64d61c15-275b-45d9-80ca-faff9ef37c39
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358620
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 0023bf9d-3b2f-452c-a393-1faf3ba7601b
+        Seed: 35513
+        m_Operators:
+        - rid: 3103318136011358621
+        - rid: 3103318136011358622
+        - rid: 3103318136011358623
+        - rid: 3103318136011358624
+        - rid: 3103318136011358625
+        - rid: 3103318136011358626
+        history:
+        - rid: 3103318136011358620
+        m_UnsafeContent: 0
+    - rid: 3103318136011358621
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358622
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - water bottle
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358623
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 35513
+          - 0023bf9d-3b2f-452c-a393-1faf3ba7601b
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358624
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358625
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358626
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 64d61c15-275b-45d9-80ca-faff9ef37c39
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358627
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 52bd0df7-0abc-4f7d-b7bd-3d3b12c05be6
+        Seed: 54424
+        m_Operators:
+        - rid: 3103318136011358628
+        - rid: 3103318136011358629
+        - rid: 3103318136011358630
+        - rid: 3103318136011358631
+        - rid: 3103318136011358632
+        - rid: 3103318136011358633
+        history:
+        - rid: 3103318136011358627
+        m_UnsafeContent: 0
+    - rid: 3103318136011358628
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358629
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - water bottle
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358630
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 54424
+          - 52bd0df7-0abc-4f7d-b7bd-3d3b12c05be6
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358631
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358632
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358633
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 64d61c15-275b-45d9-80ca-faff9ef37c39
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358634
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 9642567d-c5a6-4644-a8f2-4a4cc603579f
+        Seed: 2124
+        m_Operators:
+        - rid: 3103318136011358635
+        - rid: 3103318136011358636
+        - rid: 3103318136011358637
+        - rid: 3103318136011358638
+        - rid: 3103318136011358639
+        - rid: 3103318136011358640
+        history:
+        - rid: 3103318136011358634
+        m_UnsafeContent: 0
+    - rid: 3103318136011358635
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358636
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - water bottle
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358637
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 2124
+          - 9642567d-c5a6-4644-a8f2-4a4cc603579f
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358638
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358639
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358640
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 64d61c15-275b-45d9-80ca-faff9ef37c39
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358641
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: edf4539d-43cc-480b-9524-bd6442d8da61
+        Seed: 35069
+        m_Operators:
+        - rid: 3103318136011358642
+        - rid: 3103318136011358643
+        - rid: 3103318136011358644
+        - rid: 3103318136011358645
+        - rid: 3103318136011358646
+        - rid: 3103318136011358647
+        history:
+        - rid: 3103318136011358641
+        m_UnsafeContent: 1
+    - rid: 3103318136011358642
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358643
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - water bottle
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358644
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 35069
+          - edf4539d-43cc-480b-9524-bd6442d8da61
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358645
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358646
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358647
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 64d61c15-275b-45d9-80ca-faff9ef37c39
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358648
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 4f3ae2cc-fba3-4f34-b858-474772ec6e04
+        Seed: 58367
+        m_Operators:
+        - rid: 3103318136011358649
+        - rid: 3103318136011358650
+        - rid: 3103318136011358651
+        - rid: 3103318136011358652
+        - rid: 3103318136011358653
+        - rid: 3103318136011358654
+        history:
+        - rid: 3103318136011358648
+        m_UnsafeContent: 1
+    - rid: 3103318136011358649
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358650
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - water bottle
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358651
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 58367
+          - 4f3ae2cc-fba3-4f34-b858-474772ec6e04
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358652
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358653
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358654
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 64d61c15-275b-45d9-80ca-faff9ef37c39
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358655
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: fe190b93-5f82-41b6-9af3-1996c0b97fac
+        Seed: 4680
+        m_Operators:
+        - rid: 3103318136011358656
+        - rid: 3103318136011358657
+        - rid: 3103318136011358658
+        - rid: 3103318136011358659
+        - rid: 3103318136011358660
+        - rid: 3103318136011358661
+        history:
+        - rid: 3103318136011358655
+        m_UnsafeContent: 0
+    - rid: 3103318136011358656
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358657
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - water bottle
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358658
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 4680
+          - fe190b93-5f82-41b6-9af3-1996c0b97fac
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358659
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358660
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358661
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 64d61c15-275b-45d9-80ca-faff9ef37c39
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358662
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 2ad531bc-8627-4790-b6b9-64d29d28d2f0
+        Seed: 46748
+        m_Operators:
+        - rid: 3103318136011358663
+        - rid: 3103318136011358664
+        - rid: 3103318136011358665
+        - rid: 3103318136011358666
+        - rid: 3103318136011358667
+        - rid: 3103318136011358668
+        history:
+        - rid: 3103318136011358662
+        m_UnsafeContent: 0
+    - rid: 3103318136011358663
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358664
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - water bottle
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358665
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 46748
+          - 2ad531bc-8627-4790-b6b9-64d29d28d2f0
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358666
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358667
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358668
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 64d61c15-275b-45d9-80ca-faff9ef37c39
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358669
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: b9db558a-e657-4af8-b827-65f7831718e9
+        Seed: 61565
+        m_Operators:
+        - rid: 3103318136011358670
+        - rid: 3103318136011358671
+        - rid: 3103318136011358672
+        - rid: 3103318136011358673
+        - rid: 3103318136011358674
+        - rid: 3103318136011358675
+        history:
+        - rid: 3103318136011358669
+        m_UnsafeContent: 0
+    - rid: 3103318136011358670
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358671
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - water bottle
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358672
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 61565
+          - b9db558a-e657-4af8-b827-65f7831718e9
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358673
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358674
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358675
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 64d61c15-275b-45d9-80ca-faff9ef37c39
+          enabled: 0
+          assembly: Unity.Muse.Sprite

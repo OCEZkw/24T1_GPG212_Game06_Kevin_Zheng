@@ -14,6 +14,8 @@ public class DaysManager : MonoBehaviour
     public GameObject loadingScreen; // Reference to the loading screen Canvas
     public Image fadePanel; // Reference to the black panel for fading
 
+    public GameObject dialogueCanvas;
+
     void Start()
     {
         UpdateDayText();
@@ -37,6 +39,16 @@ public class DaysManager : MonoBehaviour
     {
         IncrementDay();
         StartCoroutine(ShowLoadingScreen());
+
+        // Disable dialogue canvas when ending the day
+        if (dialogueCanvas != null)
+        {
+            dialogueCanvas.SetActive(false);
+        }
+        else
+        {
+            Debug.LogWarning("Dialogue canvas reference not set in DaysManager script.");
+        }
     }
 
     IEnumerator ShowLoadingScreen()

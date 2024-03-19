@@ -1,0 +1,3802 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a6b9796d1c0440eba061ace5e9dff6, type: 3}
+  m_Name: 'bunker, background '
+  m_EditorClassIdentifier: 
+  assetsData:
+  - rid: 3103318136011358222
+  - rid: 3103318136011358230
+  - rid: 3103318136011358237
+  - rid: 3103318136011358244
+  - rid: 3103318136011358251
+  - rid: 3103318136011358258
+  - rid: 3103318136011358265
+  - rid: 3103318136011358272
+  - rid: 3103318136011358279
+  - rid: 3103318136011358286
+  - rid: 3103318136011358293
+  - rid: 3103318136011358300
+  - rid: 3103318136011358307
+  - rid: 3103318136011358314
+  - rid: 3103318136011358321
+  - rid: 3103318136011358328
+  - rid: 3103318136011358335
+  - rid: 3103318136011358342
+  - rid: 3103318136011358349
+  - rid: 3103318136011358356
+  - rid: 3103318136011358363
+  - rid: 3103318136011358370
+  - rid: 3103318136011358377
+  - rid: 3103318136011358384
+  - rid: 3103318136011358391
+  - rid: 3103318136011358398
+  - rid: 3103318136011358405
+  - rid: 3103318136011358412
+  - rid: 3103318136011358419
+  - rid: 3103318136011358426
+  - rid: 3103318136011358433
+  - rid: 3103318136011358440
+  - rid: 3103318136011358447
+  - rid: 3103318136011358454
+  - rid: 3103318136011358461
+  - rid: 3103318136011358468
+  - rid: 3103318136011358475
+  - rid: 3103318136011358482
+  - rid: 3103318136011358489
+  - rid: 3103318136011358496
+  currentMode: TextToSprite
+  m_Data:
+  - rid: 3103318136011358210
+  - rid: 3103318136011358211
+  - rid: 3103318136011358212
+  - rid: 3103318136011358213
+  - rid: 3103318136011358214
+  - rid: 3103318136011358215
+  - rid: 3103318136011358223
+  preRefinedArtifact:
+    rid: -2
+  refinedArtifact:
+    rid: -2
+  selectedArtifact:
+    rid: -2
+  m_Operators:
+  - rid: 3103318136011358216
+  - rid: 3103318136011358217
+  - rid: 3103318136011358218
+  - rid: 3103318136011358219
+  - rid: 3103318136011358220
+  - rid: 3103318136011358221
+  m_PreRefineOperators: []
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 3103318136011358210
+      type: {class: FeedbackManager, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_Liked:
+          m_Values: []
+        m_Disliked:
+          m_Values: []
+    - rid: 3103318136011358211
+      type: {class: DefaultStyleData, ns: Unity.Muse.Sprite.Data, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358212
+      type: {class: GenerateButtonData, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data: 
+    - rid: 3103318136011358213
+      type: {class: MainUI/UISize, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_NodeListWidth: 300
+        m_NodeListRefineWidth: 300
+        m_AssetListRefineWidth: 200
+    - rid: 3103318136011358214
+      type: {class: SessionData, ns: Unity.Muse.Sprite.Data, asm: Unity.Muse.Sprite}
+      data:
+        m_SessionId: 7431c4d8-35e2-4fb5-8278-e65f997df38a
+        sessionLoaded: 
+    - rid: 3103318136011358215
+      type: {class: BookmarkManager, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_BookmarkedArtifacts:
+          m_Values: []
+        m_IsFilterEnabled: 0
+    - rid: 3103318136011358216
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358217
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'a big room inside a underground bunker, background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358218
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 39106
+          - 0
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 0
+          - 
+          - 
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358219
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358220
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358221
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358222
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: e14ba921-7c42-4047-87f2-e9d83001762f
+        Seed: 53560
+        m_Operators:
+        - rid: 3103318136011358224
+        - rid: 3103318136011358225
+        - rid: 3103318136011358226
+        - rid: 3103318136011358227
+        - rid: 3103318136011358228
+        - rid: 3103318136011358229
+        history:
+        - rid: 3103318136011358222
+        m_UnsafeContent: 0
+    - rid: 3103318136011358223
+      type: {class: GenerateCountData, ns: Unity.Muse.Sprite.Data, asm: Unity.Muse.Sprite}
+      data:
+        m_Counter: 0
+    - rid: 3103318136011358224
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358225
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'bunker, background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358226
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 53560
+          - e14ba921-7c42-4047-87f2-e9d83001762f
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358227
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358228
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358229
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358230
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 6c5579b9-647f-4e1d-a8f5-8acabb445116
+        Seed: 59689
+        m_Operators:
+        - rid: 3103318136011358231
+        - rid: 3103318136011358232
+        - rid: 3103318136011358233
+        - rid: 3103318136011358234
+        - rid: 3103318136011358235
+        - rid: 3103318136011358236
+        history:
+        - rid: 3103318136011358230
+        m_UnsafeContent: 0
+    - rid: 3103318136011358231
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358232
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'bunker, background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358233
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 59689
+          - 6c5579b9-647f-4e1d-a8f5-8acabb445116
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358234
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358235
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358236
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358237
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 6cc3288d-be50-40ee-85cb-344b6678ce43
+        Seed: 29720
+        m_Operators:
+        - rid: 3103318136011358238
+        - rid: 3103318136011358239
+        - rid: 3103318136011358240
+        - rid: 3103318136011358241
+        - rid: 3103318136011358242
+        - rid: 3103318136011358243
+        history:
+        - rid: 3103318136011358237
+        m_UnsafeContent: 0
+    - rid: 3103318136011358238
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358239
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'bunker, background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358240
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 29720
+          - 6cc3288d-be50-40ee-85cb-344b6678ce43
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358241
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358242
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358243
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358244
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: d48f4db6-acce-4417-ad2a-de6616d3ed04
+        Seed: 3837
+        m_Operators:
+        - rid: 3103318136011358245
+        - rid: 3103318136011358246
+        - rid: 3103318136011358247
+        - rid: 3103318136011358248
+        - rid: 3103318136011358249
+        - rid: 3103318136011358250
+        history:
+        - rid: 3103318136011358244
+        m_UnsafeContent: 0
+    - rid: 3103318136011358245
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358246
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'bunker, background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358247
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 3837
+          - d48f4db6-acce-4417-ad2a-de6616d3ed04
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358248
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358249
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358250
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358251
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 59ab7d71-66b6-4c09-b6fa-853dfa2daa2e
+        Seed: 63921
+        m_Operators:
+        - rid: 3103318136011358252
+        - rid: 3103318136011358253
+        - rid: 3103318136011358254
+        - rid: 3103318136011358255
+        - rid: 3103318136011358256
+        - rid: 3103318136011358257
+        history:
+        - rid: 3103318136011358251
+        m_UnsafeContent: 0
+    - rid: 3103318136011358252
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358253
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'bunker, background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358254
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 63921
+          - 59ab7d71-66b6-4c09-b6fa-853dfa2daa2e
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358255
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358256
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358257
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358258
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 0181a710-ff5e-407f-afb2-813576dcca49
+        Seed: 59948
+        m_Operators:
+        - rid: 3103318136011358259
+        - rid: 3103318136011358260
+        - rid: 3103318136011358261
+        - rid: 3103318136011358262
+        - rid: 3103318136011358263
+        - rid: 3103318136011358264
+        history:
+        - rid: 3103318136011358258
+        m_UnsafeContent: 0
+    - rid: 3103318136011358259
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358260
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'bunker, background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358261
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 59948
+          - 0181a710-ff5e-407f-afb2-813576dcca49
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358262
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358263
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358264
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358265
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 73f0ad14-e7bc-4642-9406-413a830ca8d1
+        Seed: 62570
+        m_Operators:
+        - rid: 3103318136011358266
+        - rid: 3103318136011358267
+        - rid: 3103318136011358268
+        - rid: 3103318136011358269
+        - rid: 3103318136011358270
+        - rid: 3103318136011358271
+        history:
+        - rid: 3103318136011358265
+        m_UnsafeContent: 0
+    - rid: 3103318136011358266
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358267
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'bunker, background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358268
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 62570
+          - 73f0ad14-e7bc-4642-9406-413a830ca8d1
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358269
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358270
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358271
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358272
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: e8df9189-81e7-482a-a438-6e4ea8771c80
+        Seed: 29410
+        m_Operators:
+        - rid: 3103318136011358273
+        - rid: 3103318136011358274
+        - rid: 3103318136011358275
+        - rid: 3103318136011358276
+        - rid: 3103318136011358277
+        - rid: 3103318136011358278
+        history:
+        - rid: 3103318136011358272
+        m_UnsafeContent: 0
+    - rid: 3103318136011358273
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358274
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'bunker, background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358275
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 29410
+          - e8df9189-81e7-482a-a438-6e4ea8771c80
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358276
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358277
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358278
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358279
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: a617d502-4a63-4b9e-8ea3-160a6b290a3b
+        Seed: 29056
+        m_Operators:
+        - rid: 3103318136011358280
+        - rid: 3103318136011358281
+        - rid: 3103318136011358282
+        - rid: 3103318136011358283
+        - rid: 3103318136011358284
+        - rid: 3103318136011358285
+        history:
+        - rid: 3103318136011358279
+        m_UnsafeContent: 0
+    - rid: 3103318136011358280
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358281
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'bunker, background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358282
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 29056
+          - a617d502-4a63-4b9e-8ea3-160a6b290a3b
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358283
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358284
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358285
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358286
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 2e2d67f6-315d-4475-89d6-9249e71110f7
+        Seed: 51926
+        m_Operators:
+        - rid: 3103318136011358287
+        - rid: 3103318136011358288
+        - rid: 3103318136011358289
+        - rid: 3103318136011358290
+        - rid: 3103318136011358291
+        - rid: 3103318136011358292
+        history:
+        - rid: 3103318136011358286
+        m_UnsafeContent: 0
+    - rid: 3103318136011358287
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358288
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'bunker, background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358289
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 51926
+          - 2e2d67f6-315d-4475-89d6-9249e71110f7
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358290
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358291
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358292
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358293
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: b63e6fa2-c71a-42c5-ba8c-6dbe0972e0c6
+        Seed: 44901
+        m_Operators:
+        - rid: 3103318136011358294
+        - rid: 3103318136011358295
+        - rid: 3103318136011358296
+        - rid: 3103318136011358297
+        - rid: 3103318136011358298
+        - rid: 3103318136011358299
+        history:
+        - rid: 3103318136011358293
+        m_UnsafeContent: 0
+    - rid: 3103318136011358294
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358295
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'inside a bunker, background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358296
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 44901
+          - b63e6fa2-c71a-42c5-ba8c-6dbe0972e0c6
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358297
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358298
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358299
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358300
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: cade4f3e-e2ea-4be7-b989-38b0afe2e747
+        Seed: 55645
+        m_Operators:
+        - rid: 3103318136011358301
+        - rid: 3103318136011358302
+        - rid: 3103318136011358303
+        - rid: 3103318136011358304
+        - rid: 3103318136011358305
+        - rid: 3103318136011358306
+        history:
+        - rid: 3103318136011358300
+        m_UnsafeContent: 0
+    - rid: 3103318136011358301
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358302
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'inside a bunker, background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358303
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 55645
+          - cade4f3e-e2ea-4be7-b989-38b0afe2e747
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358304
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358305
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358306
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358307
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: ff376cb3-ecd4-4948-9946-6dbe762082b0
+        Seed: 31964
+        m_Operators:
+        - rid: 3103318136011358308
+        - rid: 3103318136011358309
+        - rid: 3103318136011358310
+        - rid: 3103318136011358311
+        - rid: 3103318136011358312
+        - rid: 3103318136011358313
+        history:
+        - rid: 3103318136011358307
+        m_UnsafeContent: 0
+    - rid: 3103318136011358308
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358309
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'inside a bunker, background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358310
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 31964
+          - ff376cb3-ecd4-4948-9946-6dbe762082b0
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358311
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358312
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358313
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358314
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: eadb5748-c7eb-489e-920d-2a970c56b85e
+        Seed: 45296
+        m_Operators:
+        - rid: 3103318136011358315
+        - rid: 3103318136011358316
+        - rid: 3103318136011358317
+        - rid: 3103318136011358318
+        - rid: 3103318136011358319
+        - rid: 3103318136011358320
+        history:
+        - rid: 3103318136011358314
+        m_UnsafeContent: 0
+    - rid: 3103318136011358315
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358316
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'inside a bunker, background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358317
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 45296
+          - eadb5748-c7eb-489e-920d-2a970c56b85e
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358318
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358319
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358320
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358321
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: f3e82e27-35df-4803-a35a-b96ff8038e56
+        Seed: 37852
+        m_Operators:
+        - rid: 3103318136011358322
+        - rid: 3103318136011358323
+        - rid: 3103318136011358324
+        - rid: 3103318136011358325
+        - rid: 3103318136011358326
+        - rid: 3103318136011358327
+        history:
+        - rid: 3103318136011358321
+        m_UnsafeContent: 0
+    - rid: 3103318136011358322
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358323
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'inside a bunker, background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358324
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 37852
+          - f3e82e27-35df-4803-a35a-b96ff8038e56
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358325
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358326
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358327
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358328
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 8ebf2343-d392-4f6b-986f-66f6d3dd580f
+        Seed: 64385
+        m_Operators:
+        - rid: 3103318136011358329
+        - rid: 3103318136011358330
+        - rid: 3103318136011358331
+        - rid: 3103318136011358332
+        - rid: 3103318136011358333
+        - rid: 3103318136011358334
+        history:
+        - rid: 3103318136011358328
+        m_UnsafeContent: 0
+    - rid: 3103318136011358329
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358330
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'inside a bunker, background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358331
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 64385
+          - 8ebf2343-d392-4f6b-986f-66f6d3dd580f
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358332
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358333
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358334
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358335
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 078facac-64c5-4157-8b6b-69dee38890a5
+        Seed: 13132
+        m_Operators:
+        - rid: 3103318136011358336
+        - rid: 3103318136011358337
+        - rid: 3103318136011358338
+        - rid: 3103318136011358339
+        - rid: 3103318136011358340
+        - rid: 3103318136011358341
+        history:
+        - rid: 3103318136011358335
+        m_UnsafeContent: 0
+    - rid: 3103318136011358336
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358337
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'inside a bunker, background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358338
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 13132
+          - 078facac-64c5-4157-8b6b-69dee38890a5
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358339
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358340
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358341
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358342
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: e19a9bef-0dd2-40cd-9f51-3ea2a2045b42
+        Seed: 55969
+        m_Operators:
+        - rid: 3103318136011358343
+        - rid: 3103318136011358344
+        - rid: 3103318136011358345
+        - rid: 3103318136011358346
+        - rid: 3103318136011358347
+        - rid: 3103318136011358348
+        history:
+        - rid: 3103318136011358342
+        m_UnsafeContent: 0
+    - rid: 3103318136011358343
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358344
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'inside a bunker, background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358345
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 55969
+          - e19a9bef-0dd2-40cd-9f51-3ea2a2045b42
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358346
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358347
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358348
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358349
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 4545ca6d-db99-4082-ab91-b1c2ceac79f0
+        Seed: 52713
+        m_Operators:
+        - rid: 3103318136011358350
+        - rid: 3103318136011358351
+        - rid: 3103318136011358352
+        - rid: 3103318136011358353
+        - rid: 3103318136011358354
+        - rid: 3103318136011358355
+        history:
+        - rid: 3103318136011358349
+        m_UnsafeContent: 0
+    - rid: 3103318136011358350
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358351
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'inside a bunker, background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358352
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 52713
+          - 4545ca6d-db99-4082-ab91-b1c2ceac79f0
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358353
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358354
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358355
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358356
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: e5687707-11c7-4a6b-8821-0211f3adf240
+        Seed: 55752
+        m_Operators:
+        - rid: 3103318136011358357
+        - rid: 3103318136011358358
+        - rid: 3103318136011358359
+        - rid: 3103318136011358360
+        - rid: 3103318136011358361
+        - rid: 3103318136011358362
+        history:
+        - rid: 3103318136011358356
+        m_UnsafeContent: 0
+    - rid: 3103318136011358357
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358358
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'inside a bunker, background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358359
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 55752
+          - e5687707-11c7-4a6b-8821-0211f3adf240
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358360
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358361
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358362
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358363
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: d5bd7a5e-155b-401d-a8fa-41b95275a0f4
+        Seed: 64581
+        m_Operators:
+        - rid: 3103318136011358364
+        - rid: 3103318136011358365
+        - rid: 3103318136011358366
+        - rid: 3103318136011358367
+        - rid: 3103318136011358368
+        - rid: 3103318136011358369
+        history:
+        - rid: 3103318136011358363
+        m_UnsafeContent: 0
+    - rid: 3103318136011358364
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358365
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'a big room inside a underground bunker with table, chair, water, food,
+            background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358366
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 64581
+          - d5bd7a5e-155b-401d-a8fa-41b95275a0f4
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358367
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358368
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358369
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358370
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 9b28ae6e-ad9a-4d88-887c-3c380661a67c
+        Seed: 65093
+        m_Operators:
+        - rid: 3103318136011358371
+        - rid: 3103318136011358372
+        - rid: 3103318136011358373
+        - rid: 3103318136011358374
+        - rid: 3103318136011358375
+        - rid: 3103318136011358376
+        history:
+        - rid: 3103318136011358370
+        m_UnsafeContent: 0
+    - rid: 3103318136011358371
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358372
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'a big room inside a underground bunker with table, chair, water, food,
+            background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358373
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 65093
+          - 9b28ae6e-ad9a-4d88-887c-3c380661a67c
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358374
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358375
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358376
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358377
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: a0b6f3d2-298c-4868-af7f-1a3085b1891e
+        Seed: 10887
+        m_Operators:
+        - rid: 3103318136011358378
+        - rid: 3103318136011358379
+        - rid: 3103318136011358380
+        - rid: 3103318136011358381
+        - rid: 3103318136011358382
+        - rid: 3103318136011358383
+        history:
+        - rid: 3103318136011358377
+        m_UnsafeContent: 0
+    - rid: 3103318136011358378
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358379
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'a big room inside a underground bunker with table, chair, water, food,
+            background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358380
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 10887
+          - a0b6f3d2-298c-4868-af7f-1a3085b1891e
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358381
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358382
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358383
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358384
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: f4a4786c-2702-4641-b872-c52041bc09a7
+        Seed: 20049
+        m_Operators:
+        - rid: 3103318136011358385
+        - rid: 3103318136011358386
+        - rid: 3103318136011358387
+        - rid: 3103318136011358388
+        - rid: 3103318136011358389
+        - rid: 3103318136011358390
+        history:
+        - rid: 3103318136011358384
+        m_UnsafeContent: 0
+    - rid: 3103318136011358385
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358386
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'a big room inside a underground bunker with table, chair, water, food,
+            background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358387
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 20049
+          - f4a4786c-2702-4641-b872-c52041bc09a7
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358388
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358389
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358390
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358391
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 5ebc7b83-58e8-45b4-a769-ddd40d1b8f01
+        Seed: 29043
+        m_Operators:
+        - rid: 3103318136011358392
+        - rid: 3103318136011358393
+        - rid: 3103318136011358394
+        - rid: 3103318136011358395
+        - rid: 3103318136011358396
+        - rid: 3103318136011358397
+        history:
+        - rid: 3103318136011358391
+        m_UnsafeContent: 0
+    - rid: 3103318136011358392
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358393
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'a big room inside a underground bunker with table, chair, water, food,
+            background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358394
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 29043
+          - 5ebc7b83-58e8-45b4-a769-ddd40d1b8f01
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358395
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358396
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358397
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358398
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 3d6df799-b3cc-498f-8e4c-e39e8ba2670c
+        Seed: 21304
+        m_Operators:
+        - rid: 3103318136011358399
+        - rid: 3103318136011358400
+        - rid: 3103318136011358401
+        - rid: 3103318136011358402
+        - rid: 3103318136011358403
+        - rid: 3103318136011358404
+        history:
+        - rid: 3103318136011358398
+        m_UnsafeContent: 0
+    - rid: 3103318136011358399
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358400
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'a big room inside a underground bunker with table, chair, water, food,
+            background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358401
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 21304
+          - 3d6df799-b3cc-498f-8e4c-e39e8ba2670c
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358402
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358403
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358404
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358405
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 7a56734d-ca4e-454b-b733-8bb1853ff754
+        Seed: 39685
+        m_Operators:
+        - rid: 3103318136011358406
+        - rid: 3103318136011358407
+        - rid: 3103318136011358408
+        - rid: 3103318136011358409
+        - rid: 3103318136011358410
+        - rid: 3103318136011358411
+        history:
+        - rid: 3103318136011358405
+        m_UnsafeContent: 0
+    - rid: 3103318136011358406
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358407
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'a big room inside a underground bunker with table, chair, water, food,
+            background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358408
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 39685
+          - 7a56734d-ca4e-454b-b733-8bb1853ff754
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358409
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358410
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358411
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358412
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 7e2bdbe9-97eb-4bf7-b7ab-2f83bc332033
+        Seed: 33125
+        m_Operators:
+        - rid: 3103318136011358413
+        - rid: 3103318136011358414
+        - rid: 3103318136011358415
+        - rid: 3103318136011358416
+        - rid: 3103318136011358417
+        - rid: 3103318136011358418
+        history:
+        - rid: 3103318136011358412
+        m_UnsafeContent: 0
+    - rid: 3103318136011358413
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358414
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'a big room inside a underground bunker with table, chair, water, food,
+            background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358415
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 33125
+          - 7e2bdbe9-97eb-4bf7-b7ab-2f83bc332033
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358416
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358417
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358418
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358419
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: c948975c-458f-49e9-94c8-fbc09fbf9204
+        Seed: 14252
+        m_Operators:
+        - rid: 3103318136011358420
+        - rid: 3103318136011358421
+        - rid: 3103318136011358422
+        - rid: 3103318136011358423
+        - rid: 3103318136011358424
+        - rid: 3103318136011358425
+        history:
+        - rid: 3103318136011358419
+        m_UnsafeContent: 0
+    - rid: 3103318136011358420
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358421
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'a big room inside a underground bunker with table, chair, water, food,
+            background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358422
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 14252
+          - c948975c-458f-49e9-94c8-fbc09fbf9204
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358423
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358424
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358425
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358426
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 7608b6fc-7f40-40f7-81fd-e234de66d6c0
+        Seed: 34601
+        m_Operators:
+        - rid: 3103318136011358427
+        - rid: 3103318136011358428
+        - rid: 3103318136011358429
+        - rid: 3103318136011358430
+        - rid: 3103318136011358431
+        - rid: 3103318136011358432
+        history:
+        - rid: 3103318136011358426
+        m_UnsafeContent: 0
+    - rid: 3103318136011358427
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358428
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'a big room inside a underground bunker with table, chair, water, food,
+            background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358429
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 34601
+          - 7608b6fc-7f40-40f7-81fd-e234de66d6c0
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358430
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358431
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358432
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358433
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: eeb57341-a128-42e1-9853-158efb3fc54c
+        Seed: 40473
+        m_Operators:
+        - rid: 3103318136011358434
+        - rid: 3103318136011358435
+        - rid: 3103318136011358436
+        - rid: 3103318136011358437
+        - rid: 3103318136011358438
+        - rid: 3103318136011358439
+        history:
+        - rid: 3103318136011358433
+        m_UnsafeContent: 0
+    - rid: 3103318136011358434
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358435
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'a big room inside a underground bunker, background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358436
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 40473
+          - eeb57341-a128-42e1-9853-158efb3fc54c
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358437
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358438
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358439
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358440
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 2a3a9bf0-d701-4168-97d3-8829f29b782e
+        Seed: 24120
+        m_Operators:
+        - rid: 3103318136011358441
+        - rid: 3103318136011358442
+        - rid: 3103318136011358443
+        - rid: 3103318136011358444
+        - rid: 3103318136011358445
+        - rid: 3103318136011358446
+        history:
+        - rid: 3103318136011358440
+        m_UnsafeContent: 0
+    - rid: 3103318136011358441
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358442
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'a big room inside a underground bunker, background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358443
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 24120
+          - 2a3a9bf0-d701-4168-97d3-8829f29b782e
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358444
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358445
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358446
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358447
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: aff37277-373c-4a1e-b6f7-fb6d86db8d4b
+        Seed: 59455
+        m_Operators:
+        - rid: 3103318136011358448
+        - rid: 3103318136011358449
+        - rid: 3103318136011358450
+        - rid: 3103318136011358451
+        - rid: 3103318136011358452
+        - rid: 3103318136011358453
+        history:
+        - rid: 3103318136011358447
+        m_UnsafeContent: 0
+    - rid: 3103318136011358448
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358449
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'a big room inside a underground bunker, background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358450
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 59455
+          - aff37277-373c-4a1e-b6f7-fb6d86db8d4b
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358451
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358452
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358453
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358454
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 0103f32d-41ed-49a5-b3e2-8233b4983140
+        Seed: 42777
+        m_Operators:
+        - rid: 3103318136011358455
+        - rid: 3103318136011358456
+        - rid: 3103318136011358457
+        - rid: 3103318136011358458
+        - rid: 3103318136011358459
+        - rid: 3103318136011358460
+        history:
+        - rid: 3103318136011358454
+        m_UnsafeContent: 0
+    - rid: 3103318136011358455
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358456
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'a big room inside a underground bunker, background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358457
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 42777
+          - 0103f32d-41ed-49a5-b3e2-8233b4983140
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358458
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358459
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358460
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358461
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 8e4968c6-e979-45f3-a79a-1904a3f1ed31
+        Seed: 52612
+        m_Operators:
+        - rid: 3103318136011358462
+        - rid: 3103318136011358463
+        - rid: 3103318136011358464
+        - rid: 3103318136011358465
+        - rid: 3103318136011358466
+        - rid: 3103318136011358467
+        history:
+        - rid: 3103318136011358461
+        m_UnsafeContent: 0
+    - rid: 3103318136011358462
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358463
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'a big room inside a underground bunker, background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358464
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 52612
+          - 8e4968c6-e979-45f3-a79a-1904a3f1ed31
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358465
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358466
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358467
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358468
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 2c820b28-1a5b-4c5e-aefe-b77745c67e6a
+        Seed: 6269
+        m_Operators:
+        - rid: 3103318136011358469
+        - rid: 3103318136011358470
+        - rid: 3103318136011358471
+        - rid: 3103318136011358472
+        - rid: 3103318136011358473
+        - rid: 3103318136011358474
+        history:
+        - rid: 3103318136011358468
+        m_UnsafeContent: 0
+    - rid: 3103318136011358469
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358470
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'a big room inside a underground bunker, background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358471
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 6269
+          - 2c820b28-1a5b-4c5e-aefe-b77745c67e6a
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358472
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358473
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358474
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358475
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: b8677894-1e50-458e-bdaa-d475a84f867b
+        Seed: 34409
+        m_Operators:
+        - rid: 3103318136011358476
+        - rid: 3103318136011358477
+        - rid: 3103318136011358478
+        - rid: 3103318136011358479
+        - rid: 3103318136011358480
+        - rid: 3103318136011358481
+        history:
+        - rid: 3103318136011358475
+        m_UnsafeContent: 0
+    - rid: 3103318136011358476
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358477
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'a big room inside a underground bunker, background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358478
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 34409
+          - b8677894-1e50-458e-bdaa-d475a84f867b
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358479
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358480
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358481
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358482
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 7b1f9d1e-ceb9-4a6f-bac4-43ce011c4547
+        Seed: 38798
+        m_Operators:
+        - rid: 3103318136011358483
+        - rid: 3103318136011358484
+        - rid: 3103318136011358485
+        - rid: 3103318136011358486
+        - rid: 3103318136011358487
+        - rid: 3103318136011358488
+        history:
+        - rid: 3103318136011358482
+        m_UnsafeContent: 0
+    - rid: 3103318136011358483
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358484
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'a big room inside a underground bunker, background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358485
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 38798
+          - 7b1f9d1e-ceb9-4a6f-bac4-43ce011c4547
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358486
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358487
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358488
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358489
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: b4c62392-d6ba-4465-b963-b31e908bfddc
+        Seed: 835
+        m_Operators:
+        - rid: 3103318136011358490
+        - rid: 3103318136011358491
+        - rid: 3103318136011358492
+        - rid: 3103318136011358493
+        - rid: 3103318136011358494
+        - rid: 3103318136011358495
+        history:
+        - rid: 3103318136011358489
+        m_UnsafeContent: 0
+    - rid: 3103318136011358490
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358491
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'a big room inside a underground bunker, background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358492
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 835
+          - b4c62392-d6ba-4465-b963-b31e908bfddc
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358493
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358494
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358495
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358496
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: f37858d1-3796-4cab-bc7e-6b4a6a43d9d0
+        Seed: 35768
+        m_Operators:
+        - rid: 3103318136011358497
+        - rid: 3103318136011358498
+        - rid: 3103318136011358499
+        - rid: 3103318136011358500
+        - rid: 3103318136011358501
+        - rid: 3103318136011358502
+        history:
+        - rid: 3103318136011358496
+        m_UnsafeContent: 0
+    - rid: 3103318136011358497
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 10
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358498
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - 'a big room inside a underground bunker, background '
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 3103318136011358499
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 35768
+          - f37858d1-3796-4cab-bc7e-6b4a6a43d9d0
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358500
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 3103318136011358501
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 3103318136011358502
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7431c4d8-35e2-4fb5-8278-e65f997df38a
+          enabled: 0
+          assembly: Unity.Muse.Sprite

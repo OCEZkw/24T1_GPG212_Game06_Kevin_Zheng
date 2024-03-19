@@ -10,8 +10,14 @@ public class Dialogue : MonoBehaviour
     [SerializeField] GameObject buttonNext;
     [SerializeField] ResourceManager resourceManager; // Reference to the ResourceManager script
 
+    [SerializeField] GameObject dialogueUI;
+    [SerializeField] Animation animation;
+    bool isDialogueOpen = false;
+
     void Start()
     {
+        CloseDialogue(); // Ensure dialogue UI is closed at the beginning
+
         // Disable back button at the beginning
         buttonBack.SetActive(false);
 
@@ -80,5 +86,50 @@ public class Dialogue : MonoBehaviour
         {
             Debug.LogWarning("Resource Manager reference not set in Dialogue script.");
         }
+    }
+
+    public void ToggleDialogue()
+    {
+        if (isDialogueOpen)
+        {
+            CloseDialogue();
+        }
+        else
+        {
+            OpenDialogue();
+        }
+    }
+
+    void OpenDialogue()
+    {
+        isDialogueOpen = true;
+
+        // Play animation to slide dialogue UI to the middle
+        if (animation != null)
+        {
+            animation.Play("OpenDialogueAnimation");
+        }
+
+        dialogueUI.SetActive(true);
+    }
+
+    void CloseDialogue()
+    {
+        isDialogueOpen = false;
+
+        // Play animation to slide dialogue UI out of view
+        if (animation != null)
+        {
+            animation.Play("CloseDialogueAnimation");
+        }
+
+        dialogueUI.SetActive(false);
+    }
+
+    void OnEnable()
+    {
+        index = 0;
+        ShowPage(index);
+        UpdateButtonVisibility();
     }
 }

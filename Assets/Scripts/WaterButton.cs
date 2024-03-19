@@ -12,7 +12,7 @@ public class WaterButton : MonoBehaviour
     {
         if (resourceManager != null)
         {
-            resourceManager.UseWater(); // Call UseWater method from ResourceManager
+            resourceManager.ConsumeResources(1, 0); // Consume 1 water and 0 food
         }
         else
         {
