@@ -2,59 +2,91 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using static UnityEngine.Rendering.DebugUI.Table;
 
 public class ResourceManager : MonoBehaviour
 {
-    public int startingWater = 6;
-    public int startingFood = 6;
-
-    private int currentWater;
-    private int currentFood;
-
-    public Text waterText;
-    public Text foodText;
+    public int waterCount = 5; // Initial amount of water
+    public int foodCount = 5; // Initial amount of food
+    public GameObject waterPrefab; // Prefab for water bottle image
+    public GameObject foodPrefab; // Prefab for food plate image
+    private GameObject[] waterBottles; // Array of water bottle GameObjects
+    private GameObject[] foodPlates; // Array of food plate GameObjects
 
     void Start()
     {
-        currentWater = startingWater;
-        currentFood = startingFood;
-
-        UpdateUI();
-    }
-
-    void Update()
-    {
-        // Example: Decrease resources over time
-        // Adjust this according to your game's mechanics
-        // For simplicity, let's assume resources decrease by 1 every second
-        if (Time.timeSinceLevelLoad % 1 == 0)
+        // Instantiate water bottles
+        waterBottles = new GameObject[waterCount];
+        for (int i = 0; i < waterCount; i++)
         {
-            ConsumeResources(1, 1);
+            waterBottles[i] = Instantiate(waterPrefab, transform);
+        }
+
+        // Instantiate food plates
+        foodPlates = new GameObject[foodCount];
+        for (int i = 0; i < foodCount; i++)
+        {
+            foodPlates[i] = Instantiate(foodPrefab, transform);
         }
     }
 
-    public void ConsumeResources(int waterAmount, int foodAmount)
+    // Use water resource
+    public void UseWater()
     {
-        currentWater -= waterAmount;
-        currentFood -= foodAmount;
-
-        UpdateUI();
-
-        if (currentWater <= 0 || currentFood <= 0)
+        if (waterCount > 0)
         {
-            GameOver();
+            waterCount--;
+            Destroy(waterBottles[waterCount]); // Remove one water bottle from UI
+        }
+        else
+        {
+            Debug.Log("Out of water!");
+            // You can add additional logic here, like showing a message to the player
         }
     }
 
-    void UpdateUI()
+    // Use food resource
+    public void UseFood()
     {
-        waterText.text = "Water: " + currentWater;
-        foodText.text = "Food: " + currentFood;
+        if (foodCount > 0)
+        {
+            foodCount--;
+            Destroy(foodPlates[foodCount]); // Remove one food plate from UI
+        }
+        else
+        {
+            Debug.Log("Out of food!");
+            // You can add additional logic here, like showing a message to the player
+        }
     }
 
-    void GameOver()
+    // Update UI to reflect current resource counts
+    public void UpdateResourceUI()
     {
-        // Implement game over logic here
-        Debug.Log("Game Over!");
+        // Update water UI
+        for (int i = 0; i < waterBottles.Length; i++)
+        {
+            if (i < waterCount)
+            {
+                waterBottles[i].SetActive(true); // Show water bottle image
+            }
+            else
+            {
+                waterBottles[i].SetActive(false); // Hide water bottle image
+            }
+        }
+
+        // Update food UI
+        for (int i = 0; i < foodPlates.Length; i++)
+        {
+            if (i < foodCount)
+            {
+                foodPlates[i].SetActive(true); // Show food plate image
+            }
+            else
+            {
+                foodPlates[i].SetActive(false); // Hide food plate image
+            }
+        }
     }
 }
