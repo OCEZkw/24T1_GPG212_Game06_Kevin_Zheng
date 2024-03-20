@@ -13,8 +13,56 @@ public class DaysManager : MonoBehaviour
     public TextMeshProUGUI dayText2;
     public GameObject loadingScreen; // Reference to the loading screen Canvas
     public Image fadePanel; // Reference to the black panel for fading
-
     public GameObject dialogueCanvas;
+
+    public Character human;
+    public Character dog;
+
+    private bool waterConsumedToday = false;
+    private bool foodConsumedToday = false;
+
+    //Test
+    private bool dogOnMission = false;
+    private int daysLeftOnMission = 0;
+
+
+    //Test
+    public void SendDogOnMission(ResourceManager resourceManager)
+    {
+        if (!dogOnMission)
+        {
+            dogOnMission = true;
+            daysLeftOnMission = 2;
+            resourceManager.ConsumeResources(0, 0); // Consume no resources initially
+        }
+        else
+        {
+            Debug.LogWarning("Dog is already on a mission.");
+        }
+    }
+
+
+    public void IncreaseThirst(int amount)
+    {
+        human.IncreaseThirst(amount);
+        dog.IncreaseThirst(amount);
+    }
+
+    public void IncreaseHunger(int amount)
+    {
+        human.IncreaseHunger(amount);
+        dog.IncreaseHunger(amount);
+    }
+
+    public void NotifyFoodConsumed()
+    {
+        foodConsumedToday = true;
+    }
+
+    public void NotifyWaterConsumed()
+    {
+        waterConsumedToday = true;
+    }
 
     void Start()
     {
@@ -35,10 +83,51 @@ public class DaysManager : MonoBehaviour
         }
     }
 
-    public void EndDay()
+
+    public void EndDay(ResourceManager resourceManager)
     {
+        //test
+        if (dogOnMission)
+        {
+            daysLeftOnMission--;
+
+            if (daysLeftOnMission == 0)
+            {
+                dogOnMission = false;
+
+                // Randomly determine whether to bring back food or water
+                int randomResource = Random.Range(0, 2);
+                if (randomResource == 0)
+                {
+                    resourceManager.AddResources(0, 1); // Add 1 food
+                    Debug.Log("Dog brought back food!");
+                }
+                else
+                {
+                    resourceManager.AddResources(1, 0); // Add 1 water
+                    Debug.Log("Dog brought back water!");
+                }
+            }
+        }
+
+
+        if (waterConsumedToday)
+        {
+            IncreaseThirst(3);
+            waterConsumedToday = false; // Reset for the next day
+        }
+
+        if (foodConsumedToday)
+        {
+            IncreaseHunger(3);
+            foodConsumedToday = false; // Reset for the next day
+        }
+
         IncrementDay();
         StartCoroutine(ShowLoadingScreen());
+
+        human.DecreaseStats();
+        dog.DecreaseStats();
 
         // Disable dialogue canvas when ending the day
         if (dialogueCanvas != null)
@@ -50,7 +139,6 @@ public class DaysManager : MonoBehaviour
             Debug.LogWarning("Dialogue canvas reference not set in DaysManager script.");
         }
     }
-
     IEnumerator ShowLoadingScreen()
     {
         // Show the loading screen
@@ -105,4 +193,5 @@ public class DaysManager : MonoBehaviour
             Debug.LogWarning("One or both Day Text references not set in DaysManager script.");
         }
     }
+
 }

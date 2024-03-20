@@ -44,4 +44,11 @@ public class ResourceManager : MonoBehaviour
         // Implement game over logic here
         Debug.Log("Game Over!");
     }
+
+    public void AddResources(int waterAmount, int foodAmount)
+    {
+        currentWater += waterAmount;
+        currentFood += foodAmount;
+        UpdateResourceUI();
+    }
 }
