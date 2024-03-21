@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 
-public class Character : MonoBehaviour
+public class DogCharacter : MonoBehaviour
 {
     public int startingHunger = 10;
     public int startingThirst = 10;
@@ -15,12 +15,15 @@ public class Character : MonoBehaviour
     private int currentHunger;
     private int currentThirst;
 
-    public Image humanImage;
+    public Image dogImage;
     public Sprite deadSprite;
+    public Sprite normalSprite;
+    public Sprite onMissionSprite;
 
     public TextMeshProUGUI page3Text;
+    public TextMeshProUGUI page1Text;
 
-    public DaysManager daysManager;
+    public Button scavengeButton;
 
     void Start()
     {
@@ -28,6 +31,7 @@ public class Character : MonoBehaviour
         currentThirst = startingThirst;
 
         page3Text.gameObject.SetActive(false);
+        page1Text.gameObject.SetActive(false);
 
         UpdateUI();
     }
@@ -42,13 +46,15 @@ public class Character : MonoBehaviour
 
     void Die()
     {
-        humanImage.sprite = deadSprite;
+        dogImage.sprite = deadSprite;
+
+        scavengeButton.interactable = false;
 
         // Check if the dog is dead
         if (currentHunger <= 0 || currentThirst <= 0)
         {
             // Update the canvas text for page3 if the dog is dead
-            page3Text.text = "Oh looks like you have died. I guess you didn't really make the best choices this time. Oh well try better in your next life hahaha";
+            page3Text.text = "Your faithful companion has passed away. The journey just got a lot lonelier.";
             // Show the text
             page3Text.gameObject.SetActive(true);
         }
@@ -64,11 +70,6 @@ public class Character : MonoBehaviour
 
         Debug.Log("Hunger: " + currentHunger);
         Debug.Log("Thirst: " + currentThirst);
-
-        if (currentHunger <= 0 || currentThirst <= 0)
-        {
-            daysManager.playerDeath = true; // Declare the player dead
-        }
 
         UpdateUI();
     }
@@ -116,9 +117,30 @@ public class Character : MonoBehaviour
         currentThirst += amount;
         UpdateUI();
     }
+
     public void IncreaseHunger(int amount)
     {
         currentHunger += amount;
         UpdateUI();
+    }
+
+    public void SetOnMission(bool onMission)
+    {
+        if (onMission)
+        {
+            // Set the image to the on mission sprite
+            dogImage.sprite = onMissionSprite;
+        }
+        else
+        {
+            // Set the image to the normal sprite
+            dogImage.sprite = normalSprite;
+        }
+    }
+
+    public void UpdatePage1Text(string newText)
+    {
+        page1Text.text = newText;
+        page1Text.gameObject.SetActive(true);
     }
 }

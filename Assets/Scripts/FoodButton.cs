@@ -10,14 +10,14 @@ public class FoodButton : MonoBehaviour
     // This method will be called when the button is clicked
     public void OnButtonClick()
     {
-        if (resourceManager != null)
+        if (resourceManager != null && resourceManager.CurrentFood > 0)
         {
             resourceManager.ConsumeResources(0, 1); // Consume 0 water and 1 food
             daysManager.NotifyFoodConsumed();
         }
         else
         {
-            Debug.LogWarning("Resource Manager reference not set in FoodButton script.");
+            Debug.LogWarning("Not enough food to eat.");
         }
     }
 }

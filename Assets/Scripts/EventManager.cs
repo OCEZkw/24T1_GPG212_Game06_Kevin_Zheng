@@ -6,23 +6,31 @@ public class EventManager : MonoBehaviour
 {
     public EventA eventA; // Reference to EventA script
     public EventB eventB; // Reference to EventB script
+    public EventC eventC;
+    public EventD eventD;
+
     // Add more event references as needed
 
     public void TriggerRandomEvent()
     {
-        int randomEvent = Random.Range(1, 3); // Change 3 to the total number of events
-        switch (randomEvent)
+        // Generate a random number between 0 and 99
+        int randomNumber = Random.Range(0, 100);
+
+        if (randomNumber < 32)
         {
-            case 1:
-                eventA.TriggerEvent();
-                break;
-            case 2:
-                eventB.TriggerEvent();
-                break;
-            // Add cases for more events
-            default:
-                Debug.Log("No event triggered");
-                break;
+            eventA.TriggerEvent();
+        }
+        else if (randomNumber < 64)
+        {
+            eventB.TriggerEvent();
+        }
+        else if (randomNumber < 96)
+        {
+            eventC.TriggerEvent();
+        }
+        else // 4% chance
+        {
+            eventD.TriggerEvent();
         }
     }
 }

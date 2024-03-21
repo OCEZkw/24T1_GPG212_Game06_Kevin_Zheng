@@ -11,32 +11,41 @@ public class ResourceManager : MonoBehaviour
     public int startingWater = 6;
     public int startingFood = 6;
 
-    private int currentWater;
-    private int currentFood;
+    public int CurrentWater { get; private set; }
+    public int CurrentFood { get; private set; }
 
     public TextMeshProUGUI waterText; // TextMeshProUGUI component for displaying water
     public TextMeshProUGUI foodText;  // TextMeshProUGUI component for displaying food
 
     void Start()
     {
-        currentWater = startingWater;
-        currentFood = startingFood;
+        CurrentWater = startingWater;
+        CurrentFood = startingFood;
 
         UpdateResourceUI(); // Update UI when the game starts
     }
 
     public void ConsumeResources(int waterAmount, int foodAmount)
     {
-        currentWater -= waterAmount;
-        currentFood -= foodAmount;
+        if (CurrentWater - waterAmount >= 0 && CurrentFood - foodAmount >= 0)
+        {
+            CurrentWater -= waterAmount;
+            CurrentFood -= foodAmount;
+        }
+        else
+        {
+            // If the consumption would result in negative values, set the amounts to 0 instead
+            CurrentWater = Mathf.Max(CurrentWater - waterAmount, 0);
+            CurrentFood = Mathf.Max(CurrentFood - foodAmount, 0);
+        }
 
         UpdateResourceUI();
     }
 
     public void UpdateResourceUI()
     {
-        waterText.text = "Water: " + currentWater;
-        foodText.text = "Food: " + currentFood;
+        waterText.text = "Water: " + CurrentWater;
+        foodText.text = "Food: " + CurrentFood;
     }
 
     void GameOver()
@@ -47,8 +56,8 @@ public class ResourceManager : MonoBehaviour
 
     public void AddResources(int waterAmount, int foodAmount)
     {
-        currentWater += waterAmount;
-        currentFood += foodAmount;
+        CurrentWater += waterAmount;
+        CurrentFood += foodAmount;
         UpdateResourceUI();
     }
 }
